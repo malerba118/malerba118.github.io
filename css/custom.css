@@ -1,0 +1,58 @@
+/*
+Theme Name: Worthy - Free Powerful Theme by HtmlCoder
+Author:HtmlCoder
+Author URI:http://www.htmlcoder.me
+Version:1.0.0
+Created:November 2014
+License: Creative Commons Attribution 3.0 License (https://creativecommons.org/licenses/by/3.0/)
+File Description: Place here your custom CSS styles
+*/
+
+.btn-default-inverse {
+    color: #ffffff;
+	background-color: #339BEB;
+	border-color: #339BEB;
+}
+
+.btn-default-inverse:hover {
+    background-color: #ffffff;
+	color: #339BEB;
+	border: 1px solid #55acee;
+}
+
+.img-center {
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+}
+            
+
+.tab { margin-left: 40px; }
+
+.dropdown-menu li {
+	
+	color: #666666;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 300;
+}
+
+.btn-glyph {
+	padding: 7px 15px 12px 15px;
+    margin-left:-4px;
+	font-size: 16px;
+	line-height: 1;
+	text-align: center;
+	border-radius: 0;
+	text-transform: uppercase;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+
+.space-sm {
+	padding: 10px 0;
+}
+

@@ -1,0 +1,958 @@
+<!DOCTYPE html>
+<!--[if IE 9]> <html lang="en" class="ie9"> <![endif]-->
+<!--[if !IE]><!-->
+<html lang="en">
+<!--<![endif]-->
+	<head>
+		<meta charset="utf-8">
+		<title>Austin Malerba | Software Engineer</title>
+		<meta name="description" content="Software design and development services.">
+		<meta name="author" content="htmlcoder.me">
+
+		<!-- Mobile Meta -->
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Favicon -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.5/angular.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/ace/1.2.3/min/ace.js"></script>
+    <script src="js/script.js"></script>
+
+		<!-- Web Fonts -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,700italic,400,700,300&amp;subset=latin,latin-ext' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Raleway:700,400,300' rel='stylesheet' type='text/css'>
+
+		<!-- Bootstrap core CSS -->
+		<link href="bootstrap/css/bootstrap.css" rel="stylesheet">
+
+		<!-- Font Awesome CSS -->
+		<link href="fonts/font-awesome/css/font-awesome.css" rel="stylesheet">
+
+		<!-- Plugins -->
+		<link href="css/animations.css" rel="stylesheet">
+
+		<!-- Worthy core CSS file -->
+		<link href="css/style.css" rel="stylesheet">
+
+		<!-- Custom css -->
+		<link href="css/custom.css" rel="stylesheet">
+
+
+        <link href="css/prism.css" rel="stylesheet">
+
+
+
+	</head>
+
+	<body class="no-trans" ng-app="app">
+		<!-- scrollToTop -->
+		<!-- ================ -->
+		<div class="scrollToTop"><i class="icon-up-open-big"></i></div>
+
+		<!-- header start -->
+		<!-- ================ -->
+		<header class="header fixed clearfix navbar navbar-fixed-top">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-4">
+
+						<!-- header-left start -->
+						<!-- ================ -->
+						<div class="header-left clearfix">
+
+							<!-- logo -->
+							<div class="logo smooth-scroll">
+								<!--<a href="#banner"><img id="logo" src="images/logo.png" alt="Worthy"></a>-->
+							</div>
+
+							<!-- name-and-slogan -->
+							<div class="site-name-and-slogan smooth-scroll">
+								<div class="site-name"><a href="#banner">Austin Malerba</a></div>
+								<div class="site-slogan"><span>Software Engineer</span></div>
+							</div>
+
+						</div>
+						<!-- header-left end -->
+
+					</div>
+					<div class="col-md-8">
+
+						<!-- header-right start -->
+						<!-- ================ -->
+						<div class="header-right clearfix">
+
+							<!-- main-navigation start -->
+							<!-- ================ -->
+							<div class="main-navigation animated">
+
+								<!-- navbar start -->
+								<!-- ================ -->
+								<nav class="navbar navbar-default" role="navigation">
+									<div class="container-fluid">
+
+										<!-- Toggle get grouped for better mobile display -->
+										<div class="navbar-header">
+											<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse-1">
+												<span class="sr-only">Toggle navigation</span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+												<span class="icon-bar"></span>
+											</button>
+										</div>
+
+										<!-- Collect the nav links, forms, and other content for toggling -->
+										<div class="collapse navbar-collapse scrollspy smooth-scroll" id="navbar-collapse-1">
+											<ul class="nav navbar-nav navbar-right">
+												<li class="active"><a href="#banner">Home</a></li>
+												<li><a href="#about">About</a></li>
+                                                <li><a href="#portfolio">Portfolio</a></li>
+												<li><a href="#experience">Experience</a></li>
+												<li><a href="#contact">Contact</a></li>
+											</ul>
+										</div>
+
+									</div>
+								</nav>
+								<!-- navbar end -->
+
+							</div>
+							<!-- main-navigation end -->
+
+						</div>
+						<!-- header-right end -->
+
+					</div>
+				</div>
+			</div>
+		</header>
+		<!-- header end -->
+
+		<!-- banner start -->
+		<!-- ================ -->
+		<div id="banner" class="banner">
+			<div class="banner-image"></div>
+			<div class="banner-caption">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-8 col-md-offset-2 object-non-visible" style="padding-top: -50px;" data-animation-effect="fadeIn">
+							<h1 class="text-center">Austin Malerba</h1>
+                            <h2 class="text-center">Software Engineer</h2>
+                            <hr style="height:1px; border:none; color:#339BEB; background-color:#339BEB;">
+                            <h3 class="text-center">Java - Python - JavaScript - C - Django - Angular - Node</h3>
+                            <br>
+                            <br>
+
+                            <p  style="border-color:#55acee; border-style: solid; border-width: 1px;">
+															<code filepath="files/code.js" height='200px' width='100%'></code>
+														</p>
+                            <br>
+                            <br>
+                            <p class="text-center scrollspy smooth-scroll">
+                                <a href="#contact">
+                                    <button type="button" class="btn btn-default-inverse">Contact Info</button>
+                                </a>
+                                <a target="_blank" href="https://github.com/malerba118?tab=repositories">
+                                    <button type="button" class="btn btn-default-inverse">GitHub</button>
+                                </a>
+                            </p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- banner end -->
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="section clearfix object-non-visible" data-animation-effect="fadeIn">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 id="about" class="title text-center">About Me</h1>
+                        <p class="lead text-center">A peek into my academic and personal life.</p>
+						<p class="lead text-center"></p>
+						<div class="space"></div>
+						<div class="row">
+							<div class="col-md-6">
+								<img src="images/me.jpg" alt="">
+								<div class="space"></div>
+							</div>
+							<div class="col-md-6">
+                                <div class="btn-group" role="group"  style="float:right;" aria-label="...">
+                                    <a href="files/Malerba_Resume_2016.pdf">
+                                        <button type="button" class="btn btn-default">View Resume</button>
+                                    </a>
+                                    <a href="files/Malerba_Resume_2016.pdf" download>
+                                        <button type="button" class="btn-glyph btn-default"><span class="glyphicon glyphicon-download-alt" aria-hidden="true"></span></button>
+                                    </a>
+                                </div>
+                                <h2>Overview </h2>
+								<p>I am a fifth year honors student at RIT, working toward a BS in computer science. I have maintained a 3.96 GPA and made the dean's list all terms to date.</p>
+                                <p>I have experience with the following tools:</p>
+                                <span>
+                                <ul style="width:30%; float:left;" class="list-unstyled">
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Java</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Python (Django)</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> C</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Javascript</li>
+                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Angular</li>
+                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Node (Express)</li>
+
+
+
+								</ul>
+                                <ul  style="width:70%; float:right;" class="list-unstyled">
+                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> SQL</li>
+                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> PostgreSQL</li>
+                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> MongoDB</li>
+                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Eclipse, Atom, vim, PyCharm</li>
+                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> git, TortoiseSVN, RTCSCM</li>
+                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> AWS, nginx, gunicorn</li>
+                                </ul>
+                                </span>
+                                <div class="space"></div>
+
+                                <h3>Web Development</h3>
+                                <p> I am a full stack web developer, familiar with Django and the MEAN stack. I have worked with RESTful api's and am well-aquainted with web development fundamentals (network protocols, authentication, DOM manipulation, promises, routing, RESTful architecture).
+                                </p>
+                                <h3>Data Structures and Algorithms</h3>
+                                <p> I have a strong understanding of fundamental data structure abstractions and the advantages and disadvantages of their various implementations. I am confident in the areas of algorithm analysis, sorting, searching, randomized algorithms, hashing, and graph algorithms/traversals.
+                                </p>
+
+
+							</div>
+						</div>
+
+						<div class="row">
+							<div class="col-md-6">
+								<h3>Databases</h3>
+                                <p>
+                                    I have experience with database design and DBMS concepts (ER diagrams, normal forms, ACID), having worked with both relational and NoSQL databases. I have used ORM's including Hibernate and Django's built in ORM. I also have considerable exposure to writing SQL queries.
+                                </p>
+                                <h3>The Software Process</h3>
+                                <p>I have a thorough understanding of process models--including Agile--and tools used in such processes. In my experience as an intern I've made use of tools including Scrum, Jira, Jenkins, Git, unit testing, and development/staging/UAT environments.
+                                </p>
+							</div>
+							<div class="col-md-6">
+                                <h3>Object Oriented Programming</h3>
+                                <p>I have been programming in Java for three years and Python for four, hence object oriented programming has become quite natural to me. With tools such as the single responsibility principle and dependency minimization, I like to keep code extendable, organized, and readable.
+                                </p>
+
+								<h3>Personal</h3>
+                                <p>I am inventive, passionate, and persistent. I love working to develop innovative and creative products. Additionally, I am easy-going and have a good sense of humor, which I believe is conducive to an optimistic and productive work environment.
+                                </p>
+                            </div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+
+        <div class=containter>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <hr style="height:1px;border:none;color:#333;background-color:#333;" />
+                </div>
+            </div>
+        </div>
+
+
+
+
+		<!-- section start -->
+		<!-- ================ -->
+		<div class="section">
+			<div class="container">
+				<h1 class="text-center title" id="portfolio">Portfolio</h1>
+				<div class="separator"></div>
+				<p class="lead text-center">Here's a handful of projects I've worked on in my free time.</p>
+				<div class="space-sm"></div>
+				<div class="row object-non-visible" data-animation-effect="fadeIn">
+					<div class="col-md-12">
+
+						<!-- isotope filters start -->
+						<div class="filters text-center">
+							<ul class="nav nav-pills">
+								<li class="active"><a href="#" data-filter="*">All</a></li>
+								<li><a href="#" data-filter=".django">Django</a></li>
+								<li><a href="#" data-filter=".java">Java</a></li>
+								<li><a href="#" data-filter=".c-programming">C</a></li>
+                                <li><a href="#" data-filter=".javascript">Javascript</a></li>
+                                <div class="btn-group" role="group">
+                                    <li type="button" class="dropdown-toggle filter-dropdown" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                      Other
+                                      <span class="caret"></span>
+                                    </li>
+                                    <ul class="dropdown-menu" role="menu" aria-labelledby="menu1">
+                                      <li><a href="#" role="menuitem" data-filter=".extracurricular">Extracurricular</a></li>
+                                      <li><a href="#" role="menuitem" data-filter=".curricular">Curricular</a></li>
+                                      <li><a href="#" role="menuitem"  data-filter=".team">Teamwork</a></li>
+                                    </ul>
+                                </div>
+							</ul>
+						</div>
+						<!-- isotope filters end -->
+
+                        <div class="space-sm"></div>
+						<!-- portfolio items start -->
+						<div class="isotope-container row grid-space-20">
+
+
+							<div class="col-sm-6 col-md-3 isotope-item django javascript extracurricular">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/giftstr.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-8">
+											<i class="fa fa-search-plus"></i>
+											<span>Django/Angular</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-8">Giftstr.com</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-8" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-8-label">Giftstr.com</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Giftstr is a gift recommendation service.</h3>
+												<div class="row">
+													<div class="col-md-6">
+                                                        <br>
+                                                        <p>It is intended for personal use and as a way of finding gifts for others.</p>
+                                                        <p>Each person starts out with the same list of product suggestions. You, the user, assume the identity of each person in your persons list and like or dislike product suggestions based on your knowledge of this person. In time, we learn each person's preferences and give suggestions based on their likes.</p>
+                                                        <p>Be lenient when liking products. Just because a person already owns an item or because an item is costly, doesn't mean you should skip it. This is important because we use a person's likes to determine their suggestions.</p>
+                                                        <p>Our system does this using a method known as collaborative filtering. In simple terms, we find persons that are most similar to the target person and then suggest to the target person items that these similar persons have liked in the past.</p>
+                                                        <br>
+														<p>
+                                                            <a target="_blank" href="http://giftstr.com">
+                                                                <button type="button" class="btn btn-default">See the result</button>
+                                                            </a>
+                                                            <a target="_blank" href="https://github.com/malerba118/giftstr">
+                                                                <button type="button" class="btn btn-default">See the code</button>
+                                                            </a>
+                                                        </p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/giftstr.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+
+
+							<div class="col-sm-6 col-md-3 isotope-item java extracurricular">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/brain.png" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-3">
+											<i class="fa fa-search-plus"></i>
+											<span>C</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-3">Perceptron</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-3" tabindex="-1" role="dialog" aria-labelledby="project-3-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-3-label">Perceptron</h4>
+											</div>
+											<div class="modal-body">
+												<h3>A simple perceptron implemented in Java.</h3>
+												<div class="row">
+													<div class="col-md-6">
+																												<br>
+														<p>This perceptron learns the behavior of simple OR and AND operations and illustrates that XOR classes are not linearly separable.</p>
+																												<p>This project was also an opportunity to practice concepts I learned from Sandi Metz's
+																													<a
+																														target="_blank"
+																														href="https://www.amazon.com/Practical-Object-Oriented-Design-Ruby-Addison-Wesley-ebook/dp/B0096BYG7C#nav-subnav">
+																														<i>
+																															Practical Object-Oriented Design in Ruby
+																														</i>
+																													<a>.
+																												</p>
+																												<br>
+														<p>
+																														<a target="_blank" href="https://github.com/malerba118/perceptron">
+																																<button type="button" class="btn btn-default">See the code</button>
+																														</a>
+																												</p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/brain.png" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+
+
+              <div class="col-sm-6 col-md-3 isotope-item django extracurricular">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/drf.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-7">
+											<i class="fa fa-search-plus"></i>
+											<span>Django</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-7">Rest API</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-7" tabindex="-1" role="dialog" aria-labelledby="project-7-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-7-label">Rest API</h4>
+											</div>
+											<div class="modal-body">
+												<h3>A RESTful API using Django Rest Framework</h3>
+												<div class="row">
+													<div class="col-md-6">
+                                                        <br>
+                                                        <p>A REST API for a nature service that will allow people to create and search for postings for spots in nature that they feel are worth visiting.</p>
+
+                                                        <p>The API has been implemented with the Django Rest Framework and I chose to use a Postgres database with Postgis extensions because Postgres is well-designed for geospatial queries.</p>
+
+                                                        <p>I plan to implement android and angular front-ends on top of this API.</p>
+                                                        <p>***Unfortunately, I was forced to take this site down due to unmanageable fees from AWS. I plan to host the site myself using a raspberry pi.***</p>
+                                                        <br>
+														<p>
+                                                            <a target="_blank" href="#">
+                                                                <button type="button" class="btn btn-default">See the result</button>
+                                                            </a>
+                                                            <a target="_blank" href="https://github.com/malerba118/nature_spotz_rest_api">
+                                                                <button type="button" class="btn btn-default">See the code</button>
+                                                            </a>
+                                                        </p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/drf.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+
+							<div class="col-sm-6 col-md-3 isotope-item django javascript extracurricular">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/tumblr.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-1">
+											<i class="fa fa-search-plus"></i>
+											<span>Django/Javascript</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-1">Social Network</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-1" tabindex="-1" role="dialog" aria-labelledby="project-1-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-1-label">Social Network</h4>
+											</div>
+											<div class="modal-body">
+												<h3>A social network akin to Tumblr, written in Django.</h3>
+												<div class="row">
+													<div class="col-md-6">
+                                                        <br>
+                                                        <p>This site is powered by a Django backend and a postgres DB. The front end is handled by Django's built in templating system, handlebarsJS, and JQuery to handle dynamic html and AJAX calls. Some features of the site include lazy loading, async post liking, and async post deleting.</p>
+                                                        <p>Note: if you don't wish to register you may log in to an existing account with the following credentials:</p>
+                                                        <p class="tab">username: user1</p>
+                                                        <p class="tab">password: password</p>
+<p>***Unfortunately, I was forced to take this site down due to unmanageable fees from AWS. I plan to host the site myself using a raspberry pi.***</p>
+                                                        <br>
+														<p>
+                                                            <a target="_blank" href="https://github.com/malerba118/tumblr">
+                                                                <button type="button" class="btn btn-default">See the code</button>
+                                                            </a>
+                                                        </p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/tumblr.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+
+
+							<div class="col-sm-6 col-md-3 isotope-item c-programming curricular">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/vlc.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-2">
+											<i class="fa fa-search-plus"></i>
+											<span>C</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-2">Lossless Compression</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-2" tabindex="-1" role="dialog" aria-labelledby="project-2-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-2-label">Lossless Compression</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Variable length coding to compress data.</h3>
+												<div class="row">
+													<div class="col-md-6">
+                                                        <br>
+														<p>
+
+VLC entails mapping symbols to variable length codes based on the symbols' frequencies in an input file.
+
+The most frequent symbols are mapped to the shortest codes, allowing for lossless compression.</p>
+														<p>A heap is used to map the next most frequent symbol to the next shortest code.
+
+Also note I implemented the heap from scratch.</p>
+                                                        <br>
+														<p>
+                                                            <a target="_blank" href="https://github.com/malerba118/vlc_compression">
+                                                                <button type="button" class="btn btn-default">See the code</button>
+                                                            </a>
+                                                        </p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/vlc.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+
+
+
+							<div class="col-sm-6 col-md-3 isotope-item java extracurricular">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/data_structs.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-4">
+											<i class="fa fa-search-plus"></i>
+											<span>Java</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-4">Data Structures</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-4" tabindex="-1" role="dialog" aria-labelledby="project-4-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-4-label">Data Structures</h4>
+											</div>
+											<div class="modal-body">
+												<h3>Practice implementations of data structures and algos</h3>
+												<div class="row">
+													<div class="col-md-6">
+                                                        <br>
+														<p>Graphs, trees, sorts, searches, heaps, and linked lists are some of the goodies you'll find in this code.</p>
+
+                                                        <br>
+														<p>
+                                                            <a target="_blank" href="https://github.com/malerba118/data_structs">
+                                                                <button type="button" class="btn btn-default">See the code</button>
+                                                            </a>
+                                                        </p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/data_structs.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+
+
+                            <div class="col-sm-6 col-md-3 isotope-item java extracurricular">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/scheduler.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-6">
+											<i class="fa fa-search-plus"></i>
+											<span>Java</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-6">Scheduling Heuristic</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-6" tabindex="-1" role="dialog" aria-labelledby="project-6-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-6-label">Scheduling Heuristic</h4>
+											</div>
+											<div class="modal-body">
+												<h3>A heuristic for scheduling exams</h3>
+												<div class="row">
+													<div class="col-md-6">
+                                                        <br>
+														<p>This heuristic is designed to take in student test schedules and group all test offerings into combinations which are free of timing conflicts. </p>
+                                                        <p>The program guarantees that for each time slot (test grouping), each student will only be scheduled to take zero or one tests. However, the program does not guarantee that the number of test groupings will be minimal.</p>
+                                                        <br>
+														<p>
+                                                            <a target="_blank" href="https://github.com/malerba118/scheduler">
+                                                                <button type="button" class="btn btn-default">See the code</button>
+                                                            </a>
+                                                        </p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/scheduler.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+
+                            <div class="col-sm-6 col-md-3 isotope-item django curricular team">
+								<div class="image-box">
+									<div class="overlay-container">
+										<img src="images/hnet1.jpg" alt="">
+										<a class="overlay" data-toggle="modal" data-target="#project-5">
+											<i class="fa fa-search-plus"></i>
+											<span>Django</span>
+										</a>
+									</div>
+									<a class="btn btn-default btn-block" data-toggle="modal" data-target="#project-5">Hospital Management</a>
+								</div>
+								<!-- Modal -->
+								<div class="modal fade" id="project-5" tabindex="-1" role="dialog" aria-labelledby="project-5-label" aria-hidden="true">
+									<div class="modal-dialog modal-lg">
+										<div class="modal-content">
+											<div class="modal-header">
+												<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+												<h4 class="modal-title" id="project-5-label">Hospital Management</h4>
+											</div>
+											<div class="modal-body">
+												<h3>A hospital management system written in Django</h3>
+												<div class="row">
+													<div class="col-md-6">
+                                                        <br>
+                                                        <p>A health management system designed for use by hospitals to allow easier interaction between hospital staff and patients.</p>
+                                                        <p>This was a team project for an intro to software engingeering course. Full functionality is outlined in requirements and design documents on GitHub (Screen shots also provided).</p>
+                                                        <br>
+														<p>
+                                                            <a target="_blank" href="https://github.com/malerba118/healthnet">
+                                                                <button type="button" class="btn btn-default">See the code</button>
+                                                            </a>
+                                                        </p>
+													</div>
+													<div class="col-md-6">
+														<img src="images/hnet1.jpg" alt="">
+													</div>
+												</div>
+											</div>
+											<div class="modal-footer">
+												<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">Close</button>
+											</div>
+										</div>
+									</div>
+								</div>
+								<!-- Modal end -->
+							</div>
+
+
+
+						</div>
+						<!-- portfolio items end -->
+
+					</div>
+				</div>
+			</div>
+		</div>
+		<!-- section end -->
+
+        <div class=containter>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <hr style="height:1px;border:none;color:#333;background-color:#333;" />
+                </div>
+            </div>
+        </div>
+
+
+        <!-- section start -->
+		<!-- ================ -->
+		<div class="section clearfix object-non-visible" data-animation-effect="fadeIn">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<h1 id="experience" class="title text-center">Work Experience</h1>
+						<p class="lead text-center">Putting those skills to use.</p>
+						<div class="space-sm"></div>
+						<div class="row">
+							<div class="col-md-12">
+                                <h2>Software Engineer (Intern)</h2>
+                                <h3>Epic Systems</h3>
+                                <p>September 2016 - December 2016</p>
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-md-12">
+                                <h2>Software Engineer (Intern)</h2>
+                                <h3>Target</h3>
+                                <p>June 2016 - August 2016</p>
+
+                                <ul class="list-unstyled">
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Implemented features for an internal supply chain forecasting web app (Angular/Node). </li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Utilized internal REST API microservices to display product information in app.
+</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Implemented frontend and backend error handling.</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i>  Implemented several Angular directives including infinite scrolling, C3 chart, auto-tab, and csv export.
+</li>
+                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Implemented multi-level sorting and searching, with search query highlighting. </li>
+                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Utilized tools including Scrum, Git, Gulp, Bower, NPM, Angular Material, Jira, Jenkins.</li>
+
+
+
+								</ul>
+
+
+
+
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-md-12">
+                                <h2>Research Assistant</h2>
+                                <h3>RIT Software Engineering Department</h3>
+                                <p>February 2016 - May 2016</p>
+
+                                <ul class="list-unstyled">
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Built webcrawler to collect android applications and meta data from google play store. </li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Analyzed open source C programs to classify global variable usages and their contribution to application bugs.</li>
+								</ul>
+							</div>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-md-12">
+                                <h2>Java Developer (Intern)</h2>
+                                <h3>Paychex</h3>
+                                <p>May 2014 - December 2014</p>
+
+                                <ul class="list-unstyled">
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Worked with development team in an Agile environment implementing solutions in Java to meet functional and UX requirements. </li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Worked on both server and client side development for a large-scale application (Java, Hibernate, OracleDB).
+</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Implemented SMTP notification service to notify supervisors of changes to company/workers they supervise.</li>
+									<li><i class="fa fa-caret-right pr-10 text-colored"></i> Added new text field to company info. screen with auto-population functionality and persistence.</li>
+                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Resolved defects and wrote JUnits to improve code coverage. </li>
+                                    <li><i class="fa fa-caret-right pr-10 text-colored"></i> Participated in code reviews and bi-weekly status meetings</li>
+
+
+
+								</ul>
+
+
+
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+		<!-- section end -->
+
+
+
+
+		<!-- section end -->
+
+
+
+		<!-- footer start -->
+		<!-- ================ -->
+
+        <div class=containter>
+            <div class="row">
+                <div class="col-md-6 col-md-offset-3">
+                    <hr style="height:1px;border:none;color:#333;background-color:#333;" />
+                </div>
+            </div>
+        </div>
+
+		<footer id="footer">
+
+			<!-- .footer start -->
+			<!-- ================ -->
+			<div class="footer section">
+				<div class="container">
+					<h1 class="title text-center" id="contact">Contact</h1>
+                    <h3 class="lead text-center">I'd love to hear what you have to say so feel free to ping me!</h3>
+					<div class="space-sm"></div>
+					<div class="row">
+						<div class="col-sm-5">
+							<div class="footer-content">
+                                <h2 class="text-center">Contact Info</h2>
+                                <hr>
+
+                                <br>
+								<ul class="list-icons">
+									<li><i class="fa fa-map-marker pr-10"></i> 15 Colony Manor Dr. Rochester, NY, 14623</li>
+									<li><i class="fa fa-phone pr-10"></i> 518-243-9134</li>
+									<li><i class="fa fa-envelope-o pr-10"></i> austin.malerba (at) gmail (dot) com</li>
+                                    <li><i class="fa fa-linkedin pr-10"></i> <a role="button" target="_blank" class="btn btn-default" href="https://www.linkedin.com/pub/austin-malerba/75/8a7/ab0">LinkedIn</a></li>
+								</ul>
+								<ul class="social-links">
+									<!--<li class="linkedin"><a target="_blank" href="https://www.linkedin.com/pub/austin-malerba/75/8a7/ab0"><i class="fa fa-linkedin"></i></a></li>-->
+								</ul>
+							</div>
+						</div>
+						<div class="col-sm-5 col-sm-offset-2">
+							<div class="footer-content">
+                                <h2 class="text-center">Drop me a note!</h2>
+                                <hr>
+                                <br>
+								<form action="http://formspree.io/austin.malerba@gmail.com" method="post" role="form" id="footer-form" >
+									<div class="form-group has-feedback">
+										<label class="sr-only" for="name2">Name</label>
+										<input type="text" class="form-control" id="name2" placeholder="Name" name="name" required>
+										<i class="fa fa-user form-control-feedback"></i>
+									</div>
+									<div class="form-group has-feedback">
+										<label class="sr-only" for="email2">Email address</label>
+										<input type="email" class="form-control" id="email2" placeholder="Your email" name="_replyto" required>
+										<i class="fa fa-envelope form-control-feedback"></i>
+									</div>
+									<div class="form-group has-feedback">
+										<label class="sr-only" for="message2">Message</label>
+										<textarea class="form-control" rows="8" id="message2" placeholder="Message" name="message" required></textarea>
+										<i class="fa fa-pencil form-control-feedback"></i>
+									</div>
+									<input type="submit" value="Send" class="btn btn-default">
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- .footer end -->
+
+			<!-- .subfooter start -->
+			<!-- ================ -->
+			<div class="subfooter">
+				<div class="container">
+					<div class="row">
+						<div class="col-md-12">
+							<p class="text-center">Copyright © 2014 Worthy by <a target="_blank" href="http://htmlcoder.me">HtmlCoder</a>.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- .subfooter end -->
+
+		</footer>
+		<!-- footer end -->
+
+		<!-- JavaScript files placed at the end of the document so the pages load faster
+		================================================== -->
+		<!-- Jquery and Bootstap core js files -->
+		<script type="text/javascript" src="plugins/jquery.min.js"></script>
+		<script type="text/javascript" src="bootstrap/js/bootstrap.min.js"></script>
+
+		<!-- Modernizr javascript -->
+		<script type="text/javascript" src="plugins/modernizr.js"></script>
+
+		<!-- Isotope javascript -->
+		<script type="text/javascript" src="plugins/isotope/isotope.pkgd.min.js"></script>
+
+		<!-- Backstretch javascript -->
+		<script type="text/javascript" src="plugins/jquery.backstretch.min.js"></script>
+
+		<!-- Appear javascript -->
+		<script type="text/javascript" src="plugins/jquery.appear.js"></script>
+
+		<!-- Initialization of Plugins -->
+		<script type="text/javascript" src="js/template.js"></script>
+
+		<!-- Custom Scripts -->
+		<script type="text/javascript" src="js/custom.js"></script>
+
+        <script src="js/prism.js"></script>
+
+        <script src="typed.js"></script>
+<script>
+  $(function(){
+      $(".typed-code").typed({
+        strings: ["First sentence.", "Second sentence."],
+        typeSpeed: 0
+      });
+  });
+</script>
+
+	</body>
+</html>
