@@ -1,6 +1,6 @@
 var query = {
 type: 'Software Engineer',
-gpa: { $gte: 3.96 },
+gpa: { $gte: 3.95 },
 qualities: ['Creative', 'Persistent', 'Reliable']
 };
 
