@@ -25,8 +25,14 @@ function code(FileService, $q, $timeout) {
     template: '<div></div>',
     replace: true,
     controller: function($scope, $element, $attrs) {
-      $timeout(function() {
-        var DEFAULT_HEIGHT = '200px';
+      const typeLetter = (editor, letter) => {
+        return function() {
+          return $timeout(function() {
+            editor.insert(letter);
+          }, 70);
+        }
+      };
+      var DEFAULT_HEIGHT = '200px';
       var DEFAULT_WIDTH = '400px';
       // var e = angular.element('<p class="editor"></p>');
       $element.css('height', $attrs.height || DEFAULT_HEIGHT);
@@ -56,15 +62,6 @@ function code(FileService, $q, $timeout) {
       }).finally(function() {
         editor.setReadOnly(false);
       });
-
-      function typeLetter(editor, letter) {
-        return function() {
-          return $timeout(function() {
-            editor.insert(letter);
-          }, 70);
-        }
-      }
-      }, 1000);
     }
   };
   return directive;
