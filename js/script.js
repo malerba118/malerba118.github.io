@@ -29,8 +29,7 @@ function code(FileService, $q, $timeout) {
         return function() {
           return $timeout(function() {
             editor.insert(letter);
-            console.log('proof of deploy');
-          }, (~~(Math.random()*50))+35);
+          }, ~~(Math.random()*100)+30);
         }
       };
       var DEFAULT_HEIGHT = '200px';
