@@ -29,7 +29,7 @@ function code(FileService, $q, $timeout) {
         return function() {
           return $timeout(function() {
             editor.insert(letter);
-          }, (~~(Math.random()*20))+60);
+          }, (~~(Math.random()*40))+45);
         }
       };
       var DEFAULT_HEIGHT = '200px';
