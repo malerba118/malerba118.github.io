@@ -25,7 +25,8 @@ function code(FileService, $q, $timeout) {
     template: '<div></div>',
     replace: true,
     controller: function($scope, $element, $attrs) {
-      var DEFAULT_HEIGHT = '200px';
+      $timeout(function() {
+        var DEFAULT_HEIGHT = '200px';
       var DEFAULT_WIDTH = '400px';
       // var e = angular.element('<p class="editor"></p>');
       $element.css('height', $attrs.height || DEFAULT_HEIGHT);
@@ -63,6 +64,7 @@ function code(FileService, $q, $timeout) {
           }, 70);
         }
       }
+      }, 1000);
     }
   };
   return directive;
